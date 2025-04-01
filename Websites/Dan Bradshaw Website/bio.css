@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height:100%;
+    margin:0;
+    padding:0;   
+    
+
+}
+
+body{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-image: url();
+    background-color: rgb(246, 246, 246);
+    
+}
+
+li{
+    margin:0;
+    padding:0;  
+    border: 0;
+}
+
+#logoImage{
+    height: 50px;
+    width: auto;
+    border-radius: 10px 10px;
+    margin:0;
+    padding:5px;
+}
+header{
+    background-image: url("Images/violinSheetMusicBlackAndWhite.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40%;
+    padding: 2%;
+}
+.headerBox{
+    height: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 1%;
+    
+}
+
+
+#danNameLogo{
+    width: 300px;
+}
+.navigationTitleContent{
+    display:flex;
+    width: 100%;
+    list-style-type:none;
+    margin: 0;
+    color: #ffffff;
+    font-family:Raleway, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.navigationTitleContent li{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+}
+
+.navigationLinks{
+    list-style-type: none;
+    font-family:Raleway, Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 56px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+
+}
+.navigationContent{
+    width: 400px;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.5em;  
+    padding-right: 40px; 
+}
+
+.navigationContent li a{
+    color: whitesmoke;
+    text-decoration: none;
+    border-color: #000000;
+    border: 80px;
+}
+
+
+
+
+
+
+/*Specific to bio*/
+
+.bioTitleBox{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bioTitle{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    flex-direction: row;
+    justify-content: center;
+    color:whitesmoke;
+    font-size: 4em;
+}
+.bioNavigation{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    flex-direction: row;
+    justify-content: center;
+    color:whitesmoke;
+    font-size: 1em;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 130px;
+}
+.bioNavigation li a{
+    color:whitesmoke;
+    font-size: 1em;
+    list-style-type: none;
+    text-decoration: none;
+}
+main{
+    height: 2200px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.mainBio{
+    height: 700px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    list-style: none;
+}
+.mainBio li{
+    height: 700px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    list-style: none;
+    padding: 2em;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align:left;
+}
+
+#bioPortrait{
+    height: 600px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.detailBio{
+    width: 70%;
+    padding: 2em;
+    list-style-type: none;
+}
+.detailBio li{
+    font-size: 1.5em;
+    padding: 1.5em;
+}
+footer{
+    background-color: rgb(36, 36, 36);
+    height: 30%
+}

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height:100%;
+    margin:0;
+    padding:0;   
+    
+
+}
+
+body{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-image: url();
+    background-color: rgb(246, 246, 246);
+    
+}
+
+li{
+    margin:0;
+    padding:0;  
+    border: 0;
+}
+
+#logoImage{
+    height: 50px;
+    width: auto;
+    border-radius: 10px 10px;
+    margin:0;
+    padding:5px;
+}
+header{
+    background-image: url("Images/violinSheetMusicBlackAndWhite.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40%;
+    padding: 2%;
+}
+.headerBox{
+    height: 20%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 2%;
+    
+}
+
+
+
+.navigationTitleContent{
+    display:flex;
+    list-style-type:none;
+    margin: 0;
+    color: #ffffff;
+    font-family:Raleway, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigationTitleContent li{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.navigationLinks{
+    list-style-type: none;
+    font-family:Raleway, Arial, Helvetica, sans-serif;
+    width: 50%;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.navigationContent{
+    width: 400px;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.5em;   
+}
+
+.navigationContent li a{
+    color: whitesmoke;
+    text-decoration: none;
+    border-color: #000000;
+    border: 80px;
+}
